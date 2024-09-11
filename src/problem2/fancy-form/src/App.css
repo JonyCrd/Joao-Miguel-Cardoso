@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #0a0a0a;
+  color: azure;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+label,
+input {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  color: black;
+  font-weight: 600;
+}
+
+.amount {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.caixa {
+  background-color: #171717;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  border-color: #262626;
+  border-style: solid;
+  border-width: 1px;
+}
+
+h3 {
+  color: #fcd34d;
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: larger;
+  color: #fafafa;
+}
+
+.currencyBtn:hover {
+  background-color: #525252;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+.buttonMod {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.buttonMod:hover {
+  background-color: #0056b3;
+}
